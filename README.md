@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# My Deep Learning Projects.
 
-You can use the [editor on GitHub](https://github.com/data-raj/my-work/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is the repository Which contains a few deep learning projects which I have worked upon.
+I will keep on updating it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Projects covered so far.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Facial Key points Detection
+2. Image Captions Generation using CNN-RNN Encoder
 
-```markdown
-Syntax highlighted code block
+# 1. Facial Key points Detection
 
-# Header 1
-## Header 2
-### Header 3
+This project involves combining the knowledge of computer vision techniques and deep learning to build and end-to-end facial key-points recognition system. Facial key-points include points around the eyes, nose, and mouth on any face and are used in many applications, from facial tracking to emotion recognition.
 
-- Bulleted
-- List
+This model will be able to take in any image containing faces and identify the location of each face and their facial key-points.
 
-1. Numbered
-2. List
+The project will be broken up into a few main parts in one Python notebook:
 
-**Bold** and _Italic_ and `Code` text
+Part 1 : Investigating OpenCV, pre-processing, and face detection
 
-[Link](url) and ![Image](src)
-```
+Part 2 : Training a Convolutional Neural Network (CNN) to detect facial keypoints
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Part 3 : Putting parts 1 and 2 together to identify facial key-points on any image
 
-### Jekyll Themes
+# 2. Image Captions Generation using CNN-RNN Encoder
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/data-raj/my-work/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Image captioning : We will create a deep learning model with two components: a CNN that transforms an input image into a set of features, and an RNN that turns those features into rich, descriptive language.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+In this project, We will focus on the part of the model that can generate descriptive sentences for each Image
